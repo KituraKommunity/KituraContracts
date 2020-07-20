@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://www.kitura.io/">
-<img src="https://raw.githubusercontent.com/IBM-Swift/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
+<img src="https://raw.githubusercontent.com/KituraKommunity/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
 </a>
 </p>
 
@@ -9,8 +9,8 @@
 <a href="https://ibm-swift.github.io/KituraContracts/index.html">
 <img src="https://img.shields.io/badge/apidoc-KituraContracts-1FBCE4.svg?style=flat" alt="APIDoc">
 </a>
-<a href="https://travis-ci.org/IBM-Swift/KituraContracts">
-<img src="https://travis-ci.org/IBM-Swift/KituraContracts.svg?branch=master" alt="Build Status - Master">
+<a href="https://travis-ci.org/KituraKommunity/KituraContracts">
+<img src="https://travis-ci.org/KituraKommunity/KituraContracts.svg?branch=master" alt="Build Status - Master">
 </a>
 <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" alt="macOS">
 <img src="https://img.shields.io/badge/os-linux-green.svg?style=flat" alt="Linux">
@@ -28,14 +28,14 @@ KituraContracts is a library containing type definitions shared by client (e.g. 
 
 ## Usage
 
-KituraContracts represents the types and protocols that are common to both the [Kitura](https://github.com/IBM-Swift/Kitura) server and [KituraKit](https://github.com/IBM-Swift/KituraKit) client side library. If you are using Kitura or KituraKit, your project does not need to depend on KituraContracts explicitly.
+KituraContracts represents the types and protocols that are common to both the [Kitura](https://github.com/KituraKommunity/Kitura) server and [KituraKit](https://github.com/KituraKommunity/KituraKit) client side library. If you are using Kitura or KituraKit, your project does not need to depend on KituraContracts explicitly.
 
 #### Add dependencies
 
-Add the `KituraContracts` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `KituraContracts` [release](https://github.com/IBM-Swift/KituraContracts/releases).
+Add the `KituraContracts` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `KituraContracts` [release](https://github.com/KituraKommunity/KituraContracts/releases).
 
 ```swift
-.package(url: "https://github.com/IBM-Swift/KituraContracts.git", from: "x.x.x")
+.package(url: "https://github.com/KituraKommunity/KituraContracts.git", from: "x.x.x")
 ```
 
 Add `KituraContracts` to your target's dependencies:
@@ -84,4 +84,4 @@ We love to talk server-side Swift and Kitura. Join our [Slack](http://swift-at-i
 
 ## License
 
-This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/IBM-Swift/KituraContracts/blob/master/LICENSE).
+This library is licensed under Apache 2.0. Full license text is available in [LICENSE](https://github.com/KituraKommunity/KituraContracts/blob/master/LICENSE).
